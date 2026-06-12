@@ -1,0 +1,186 @@
+/* Color Palette Custom Variables mapped from Image 2 */
+:root {
+    --brand-red: #A30000;       /* Primary Deep Red */
+    --brand-dark: #1E252B;      /* Charcoal Dark Blue Background */
+    --brand-gold: #FFCC00;      /* Accent Gold/Yellow Text on hover */
+    --bg-light: #F4F6F8;        /* Soft neutral page background */
+    --white: #FFFFFF;
+    --text-main: #1E293B;       /* Solid dark text slate */
+    --text-muted: #64748B;
+    --border-color: #CBD5E1;
+    --transition: all 0.3s ease;
+}
+
+/* Base Layout Config */
+.quote-section {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-main);
+    padding-bottom: 80px;
+}
+
+/* Header Banner Hero section */
+.quote-header {
+    background-color: var(--brand-dark);
+    color: var(--white);
+    text-align: center;
+    padding: 60px 20px 100px 20px;
+    border-bottom: 4px solid var(--brand-red);
+    margin-top: 5%;
+}
+
+.quote-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0 0 12px 0;
+}
+
+.quote-header p {
+    font-size: 1.1rem;
+    color: #E2E8F0;
+    max-width: 650px;
+    margin: 0 auto;
+    opacity: 0.95;
+}
+
+/* Outer Card Wrapper */
+.quote-container {
+    max-width: 850px;
+    margin: -60px auto 0 auto;
+    padding: 0 20px;
+    margin-top: 10%;
+}
+
+.quote-form-card {
+    background-color: var(--white);
+    border-radius: 12px;
+    padding: 45px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    border: 1px solid #E2E8F0;
+}
+
+/* Universal Row Arrangements */
+.form-row {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 22px;
+}
+
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group.full-width {
+    margin-bottom: 22px;
+}
+
+/* Form Label Details */
+.form-group label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--brand-dark);
+}
+
+/* Input Fields & Textareas styles */
+.form-group input,
+.form-group textarea,
+.form-group select {
+    padding: 12px 16px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    transition: var(--transition);
+    background-color: #FCFCFC;
+    color: var(--text-main);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Placeholder adjustments */
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #94A3B8;
+    font-size: 0.95rem;
+}
+
+/* Element states updates */
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    border-color: var(--brand-red);
+    background-color: var(--white);
+    box-shadow: 0 0 0 3px rgba(163, 0, 0, 0.1);
+}
+
+/* Dropdown native wrappers adjustments */
+.select-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.form-group select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    padding-right: 40px;
+}
+
+/* Custom indicator arrow for select box setup */
+.select-wrapper::after {
+    content: '\f078';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 0.8rem;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+    pointer-events: none;
+}
+
+/* Action button configuration */
+.form-action {
+    margin-top: 30px;
+}
+
+.quote-submit-btn {
+    background-color: var(--brand-red);
+    color: var(--white);
+    border: none;
+    padding: 14px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: var(--transition);
+    width: 100%;
+    justify-content: center;
+}
+
+.quote-submit-btn:hover {
+    background-color: var(--brand-dark);
+    color: var(--brand-gold);
+}
+
+/* Tablet & Mobile Breakdowns */
+@media (max-width: 768px) {
+    .quote-form-card {
+        padding: 25px;
+    }
+    .form-row {
+        flex-direction: column;
+        gap: 22px;
+    }
+    .quote-header h1 {
+        font-size: 2.1rem;
+    }
+}

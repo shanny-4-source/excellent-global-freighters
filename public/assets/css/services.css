@@ -1,0 +1,175 @@
+/* Color Palette Custom Variables mapped from Image 2 */
+:root {
+    --brand-red: #A30000;       /* Primary Deep Red */
+    --brand-dark: #1E252B;      /* Charcoal Dark Blue Background */
+    --brand-gold: #FFCC00;      /* Accent Gold/Yellow Text links on hover */
+    --bg-light: #F4F6F8;        /* Soft neutral background */
+    --white: #FFFFFF;
+    --text-main: #334155;
+    --text-muted: #64748B;
+    --border-color: #E2E8F0;
+    --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* Layout Framework */
+.services-section {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-main);
+    padding-bottom: 80px;
+}
+
+/* Header Hero Banner */
+.services-header {
+    background-color: var(--brand-dark);
+    color: var(--white);
+    text-align: center;
+    padding: 60px 20px 80px 20px;
+    border-bottom: 4px solid var(--brand-red);
+    margin-top: 5%;
+}
+
+.services-header h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin: 0 0 12px 0;
+    letter-spacing: 0.5px;
+}
+
+.services-header p {
+    font-size: 1.1rem;
+    color: var(--border-color);
+    max-width: 600px;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+
+/* Main Cards Grid */
+.services-container {
+    max-width: 1200px;
+    margin: -40px auto 0 auto;
+    padding: 0 20px;
+    margin-top: 10%;
+    
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+/* Individual Service Cards */
+.service-card {
+    background-color: var(--white);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    border: 1px solid var(--border-color);
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+    border-color: rgba(163, 0, 0, 0.2);
+}
+
+/* Image Wrapper and Floating Badges */
+.service-img-wrapper {
+    position: relative;
+    height: 180px;
+    width: 100%;
+    background-color: #E2E8F0;
+}
+
+.service-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.service-icon-badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: var(--brand-red);
+    color: var(--white);
+    width: 38px;
+    height: 38px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Content Area inside Cards */
+.service-content {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.service-content h3 {
+    margin: 0 0 12px 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--brand-dark);
+}
+
+.service-content p {
+    margin: 0 0 20px 0;
+    font-size: 0.92rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    flex-grow: 1; /* Keeps footer links lined up nicely horizontally */
+}
+
+/* Request Quote Interactive Link styling */
+.request-quote-btn {
+    color: var(--brand-red);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: var(--transition);
+    width: fit-content;
+}
+
+.request-quote-btn i {
+    font-size: 0.8rem;
+    transition: var(--transition);
+}
+
+.request-quote-btn:hover {
+    color: var(--brand-dark);
+}
+
+.request-quote-btn:hover i {
+    transform: translateX(4px);
+}
+
+/* Responsive Media Queries */
+@media (max-width: 992px) {
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+}
+
+@media (max-width: 650px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+    .services-header h1 {
+        font-size: 2.1rem;
+    }
+}
