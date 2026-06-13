@@ -64,10 +64,4 @@
         </div>
     </div>
 
-    <div class="footer-bottom">
-        <div class="footer-bottom-container">
-            <p>&copy; {{ date('Y') }} Excellent Global Cargo Freighters Ltd. All rights reserved.</p>
-            <p class="tagline">Reliable freight & logistics solutions worldwide.</p>
-        </div>
-    </div>
 </footer>
