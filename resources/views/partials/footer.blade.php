@@ -15,10 +15,10 @@
                 Excellent Global Cargo Freighters Ltd — your trusted partner for reliable freight and logistics solutions across the globe.
             </p>
             <div class="social-links">
-                <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/excellentglobalcargofreighters?rdid=HvYzWS8QE6LcTQj0&share_url=https%253A%252F%252Fwww.facebook.com%252Fshare%252F1BDcoNt2vP%252F#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/excellentmover2" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/excellent-movers-l-ltd-820350211 " target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/excellentglobalcargofreighters/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
 

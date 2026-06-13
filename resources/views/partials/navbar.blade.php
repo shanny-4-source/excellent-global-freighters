@@ -2,9 +2,9 @@
 
     <div class="container">
 
-        <a class="navbar-brand fw-bold text-danger" href="/">
-            EGCFL
-        </a>
+        <div class="navbar-brand d-flex align-items-center">
+            <img src="assets/images/logo.png" alt="Logo" width="15%" height="10%" class="d-inline-block align-text-top me-2">
+            
 
         <button class="navbar-toggler"
                 type="button"
