@@ -12,7 +12,7 @@
     <div class="about-container">
         <div class="story-block">
             <div class="story-image">
-                <img src="path-to-your-team-image1.jpg" alt="EGCFL Logistics Team">
+                <img src="/assets/images/about.jpg" alt="EGCFL Logistics Team">
             </div>
             <div class="story-content">
                 <span class="sub-badge">OUR STORY</span>
@@ -73,9 +73,7 @@
             <h2 class="section-title">Professionals who deliver</h2>
             <p class="team-subtitle">From licensed customs clearing agents to seasoned freight specialists and friendly customer success managers, every member of the EGCFL team is committed to moving your cargo with skill and care.</p>
             
-            <div class="team-banner-image">
-                <img src="path-to-your-team-image2.jpg" alt="EGCFL Team Banner">
-            </div>
+           
         </div>
     </div>
 </section>

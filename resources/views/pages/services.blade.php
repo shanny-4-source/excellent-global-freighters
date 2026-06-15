@@ -14,7 +14,7 @@
             
             <div class="service-card">
                 <div class="service-img-wrapper">
-                    <img src="path-to-air-freight.jpg" alt="Air Freight">
+                    <img src="/assets/images/service/airfreight.jpg" alt="Air Freight">
                     <div class="service-icon-badge"><i class="fas fa-plane"></i></div>
                 </div>
                 <div class="service-content">
@@ -26,7 +26,7 @@
 
             <div class="service-card">
                 <div class="service-img-wrapper">
-                    <img src="path-to-sea-freight.jpg" alt="Sea Freight">
+                    <img src="/assets/images/service/seafright.jpg" alt="Sea Freight">
                     <div class="service-icon-badge"><i class="fas fa-ship"></i></div>
                 </div>
                 <div class="service-content">
@@ -38,7 +38,7 @@
 
             <div class="service-card">
                 <div class="service-img-wrapper">
-                    <img src="path-to-road-freight.jpg" alt="Road Freight">
+                    <img src="/assets/images/service/roadfreight.jpg" alt="Road Freight">
                     <div class="service-icon-badge"><i class="fas fa-truck"></i></div>
                 </div>
                 <div class="service-content">
@@ -50,7 +50,7 @@
 
             <div class="service-card">
                 <div class="service-img-wrapper">
-                    <img src="path-to-customs.jpg" alt="Customs Clearance">
+                    <img src="/assets/images/service/customs.jpg" alt="Customs Clearance">
                     <div class="service-icon-badge"><i class="fas fa-file-contract"></i></div>
                 </div>
                 <div class="service-content">
@@ -62,7 +62,7 @@
 
             <div class="service-card">
                 <div class="service-img-wrapper">
-                    <img src="path-to-idf.jpg" alt="IDF Processing">
+                    <img src="/assets/images/service/idf.jpg" alt="IDF Processing">
                     <div class="service-icon-badge"><i class="fas fa-clipboard-list"></i></div>
                 </div>
                 <div class="service-content">
@@ -74,7 +74,7 @@
 
             <div class="service-card">
                 <div class="service-img-wrapper">
-                    <img src="path-to-courier.jpg" alt="Courier Services">
+                    <img src="/assets/images/service/courier.jpg" alt="Courier Services">
                     <div class="service-icon-badge"><i class="fas fa-box-open"></i></div>
                 </div>
                 <div class="service-content">
@@ -86,7 +86,7 @@
 
             <div class="service-card">
                 <div class="service-img-wrapper">
-                    <img src="path-to-relocation.jpg" alt="Office & Home Relocation">
+                    <img src="/assets/images/service/relocation.jpg" alt="Office & Home Relocation">
                     <div class="service-icon-badge"><i class="fas fa-truck-ramp-box"></i></div>
                 </div>
                 <div class="service-content">
@@ -98,7 +98,7 @@
 
             <div class="service-card">
                 <div class="service-img-wrapper">
-                    <img src="path-to-warehousing.jpg" alt="Warehousing">
+                    <img src="/assets/images/service/warehousing.jpg" alt="Warehousing">
                     <div class="service-icon-badge"><i class="fas fa-warehouse"></i></div>
                 </div>
                 <div class="service-content">
@@ -110,12 +110,12 @@
 
             <div class="service-card">
                 <div class="service-img-wrapper">
-                    <img src="path-to-port.jpg" alt="Port Handling">
-                    <div class="service-icon-badge"><i class="fas fa-anchor"></i></div>
+                    <img src="/assets/images/service/pet.jpg" alt="Pet Relocation">
+                    <div class="service-icon-badge"><i class="fas fa-paw"></i></div>
                 </div>
                 <div class="service-content">
-                    <h3>Port Handling</h3>
-                    <p>Efficient port agent and terminal operation services including container control, health certifications, duties, and logistics coordination.</p>
+                    <h3>Pet Relocation</h3>
+                    <p>Safe transportation solutions for pets during moves.</p>
                     <a href="/quote" class="request-quote-btn">Request Quote <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>

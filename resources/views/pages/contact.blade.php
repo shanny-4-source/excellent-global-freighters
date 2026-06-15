@@ -92,8 +92,6 @@
     </div>
 </section>
 
-<div class="sticky-chat-btn" id="chatBtn">
-    <i class="fas fa-comment-dots"></i>
-</div>
+
 
 @endsection

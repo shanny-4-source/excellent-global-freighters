@@ -43,7 +43,7 @@
 
         <!-- Left Content -->
         <div class="about-content">
-            <span class="section-tag">ABOUT XCELLENT</span>
+            <span class="section-tag">ABOUT EXCELLENT</span>
 
             <h2>
                 Moving Your World,<br>
@@ -51,7 +51,7 @@
             </h2>
 
             <p>
-                Xcellent Global Cargo Freighters Ltd was founded in Nairobi, Kenya
+                Excellent Global Cargo Freighters Ltd was founded in Nairobi, Kenya
                 with a mission to make international logistics simple, transparent,
                 and dependable. From customs clearance to global freight forwarding,
                 we provide reliable logistics solutions across multiple continents.
@@ -77,7 +77,7 @@
 
         <!-- Right Image -->
         <div class="about-image">
-            <img src="images/about-logistics.jpg" alt="Xcellent Cargo Team">
+            <img src="/assets/images/logistics.jpg" alt="Excellent Cargo Team">
 
             <div class="experience-card">
                 <h3>5+</h3>
@@ -156,13 +156,6 @@
             <p>Stress-free local and international moving.</p>
         </div>
 
-        <div class="service-card">
-            <div class="icon-box">
-                <i class="fas fa-globe"></i>
-            </div>
-            <h3>International Removals</h3>
-            <p>Move abroad confidently with our experts.</p>
-        </div>
 
         <div class="service-card">
             <div class="icon-box">
@@ -172,13 +165,6 @@
             <p>Safe transportation solutions for pets.</p>
         </div>
 
-        <div class="service-card">
-            <div class="icon-box">
-                <i class="fas fa-gift"></i>
-            </div>
-            <h3>Gift Handling</h3>
-            <p>Worldwide gift forwarding and delivery.</p>
-        </div>
 
     </div>
 
@@ -186,6 +172,75 @@
         <a href="/services">View All Services →</a>
     </div>
 
+</section>
+
+<section class="testimonials-section">
+    <div class="container">
+
+        <span class="section-label">TESTIMONIALS</span>
+        <h2>What our clients say</h2>
+
+        <div class="testimonial-grid">
+
+            <div class="testimonial-card">
+                
+                <p>
+                    "EGCFL has handled our import clearance for two years.
+                    Always on time, transparent, and professional."
+                </p>
+                <h5>Susan K.</h5>
+                <span>Procurement Manager</span>
+            </div>
+
+            <div class="testimonial-card">
+                
+                <p>
+                    "Smooth international removal to the UK.
+                    They took care of everything, including my pet relocation."
+                </p>
+                <h5>James M.</h5>
+                <span>Small Business Owner</span>
+            </div>
+
+            <div class="testimonial-card">
+                
+                <p>
+                    "Competitive rates and reliable sea freight schedules.
+                    Their team genuinely cares about delivery."
+                </p>
+                <h5>Aisha R.</h5>
+                <span>Logistics Lead</span>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="cta-section">
+    <div class="container">
+
+        <div class="cta-box">
+
+            <h2>Ready to ship with confidence?</h2>
+
+            <p>
+                Get a free, no-obligation quote from our logistics team within 24 hours.
+            </p>
+
+            <div class="cta-buttons">
+                <a href="/quote" class="btn btn-light">
+                    Request a Quote
+                </a>
+
+                <a href="/contact" class="btn btn-outline-light">
+                    Talk to an Expert
+                </a>
+            </div>
+
+        </div>
+
+    </div>
 </section>
 
 @endsection

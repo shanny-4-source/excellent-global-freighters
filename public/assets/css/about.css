@@ -220,13 +220,7 @@
     font-size: 1rem;
 }
 
-.team-banner-image img {
-    width: 100%;
-    max-width: 800px;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
-    object-fit: cover;
-}
+
 
 /* Responsive Breakpoints */
 @media (max-width: 992px) {
