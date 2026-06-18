@@ -14,7 +14,7 @@
             
             <div class="service-card">
                 <div class="service-img-wrapper">
-                    <img src="/assets/images/service/airfreight.jpg" alt="Air Freight">
+                    <img src="/assets/images/service/arfreight.jpeg" alt="Air Freight">
                     <div class="service-icon-badge"><i class="fas fa-plane"></i></div>
                 </div>
                 <div class="service-content">
@@ -121,6 +121,44 @@
             </div>
 
         </div>
+    </div>
+</section>
+
+<section class="rates-section">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>Rate Cards</h2>
+            <p>
+                Transparent pricing to help you plan your budget.
+                All rates are estimates — final quotes depend on weight,
+                volume and destination.
+            </p>
+        </div>
+
+        <div class="rates-grid">
+
+            <!-- Air Freight Clearance -->
+            <div class="rate-card">
+                <div class="rate-img-wrapper">
+                    <img src="/assets/images/arate.jpeg" alt="Air Freight Clearance">
+                </div>
+
+
+                <a href="/contact" class="quote-btn">Request Quote →</a>
+            </div>
+
+           
+            <div class="rate-card">
+                  <div class="rate-img-wrapper">
+                    <img src="/assets/images/srate.jpeg" alt="Sea Freight Clearance">
+                </div>
+
+                <a href="/contact" class="quote-btn">Request Quote →</a>
+            </div>
+
+        </div>
+
     </div>
 </section>
 @endsection

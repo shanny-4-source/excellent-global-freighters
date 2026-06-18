@@ -50,7 +50,7 @@
             <ul class="contact-details">
                 <li>
                     <i class="fas fa-map-marker-alt"></i>
-                    <span>Eastern Bypass Road, Embakasi,<br>Nairobi, Kenya</span>
+                    <span>Trance Towers  along Mombasa Rd<br>Nairobi, Kenya</span>
                 </li>
                 <li>
                     <i class="fas fa-envelope"></i>
