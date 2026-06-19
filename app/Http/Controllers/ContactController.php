@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use App\Mail\ContactFormMail;
 
 class ContactController extends Controller
 {
@@ -13,21 +14,20 @@ class ContactController extends Controller
             'name' => 'required',
             'email' => 'required|email',
             'subject' => 'required',
-            'message' => 'required'
+            'message' => 'required',
         ]);
 
-        Mail::raw(
-            "Name: ".$request->name."\n".
-            "Email: ".$request->email."\n".
-            "Phone: ".$request->phone."\n\n".
-            $request->message,
+        $data = [
+            'name' => $request->name,
+            'email' => $request->email,
+            'phone' => $request->phone,
+            'subject' => $request->subject,
+            'message' => $request->message,
+        ];
 
-            function ($mail) use ($request) {
-                $mail->to('info@excellentcargofreighters.co.ke')
-                     ->subject($request->subject);
-            }
-        );
+        Mail::to('info@excellentcargofreighters.co.ke')
+            ->send(new ContactFormMail($data));
 
-        return back()->with('success', 'Message sent successfully!');
+        return back()->with('success', 'Your message has been sent successfully!');
     }
 }

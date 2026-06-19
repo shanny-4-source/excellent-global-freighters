@@ -26,3 +26,8 @@ Route::post('/contact/send', [ContactController::class, 'send'])
 Route::get('/quote', function () {
     return view('pages.quote');
 });
+
+use App\Http\Controllers\QuoteController;
+
+Route::post('/quote/send', [QuoteController::class, 'send'])
+    ->name('quote.send');
