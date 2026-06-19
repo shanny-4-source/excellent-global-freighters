@@ -2,9 +2,9 @@
 
     <div class="container">
 
-        <div class="navbar-brand d-flex align-items-center">
-            <img src="assets/images/logo.png" alt="Logo" width="15%" height="10%" class="d-inline-block align-text-top me-2">
-            
+           <a class="navbar-brand" href="/">
+            <img src="{{ asset('assets/images/logo.png') }}" height="40">
+        </a>
 
         <button class="navbar-toggler"
                 type="button"

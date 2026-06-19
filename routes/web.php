@@ -14,9 +14,14 @@ Route::get('/services', function () {
     return view('pages.services');
 });
 
+use App\Http\Controllers\ContactController;
+
 Route::get('/contact', function () {
     return view('pages.contact');
 });
+
+Route::post('/contact/send', [ContactController::class, 'send'])
+    ->name('contact.send');
 
 Route::get('/quote', function () {
     return view('pages.quote');

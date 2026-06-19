@@ -17,53 +17,34 @@ body{
     overflow-x:hidden;
 }
 
-.navbar{
-    background:white;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:20px 8%;
-    position:fixed;
-    width:100%;
-    z-index:1000;
-    box-shadow:0 2px 15px rgba(0,0,0,.08);
+.navbar-brand img{
+    max-height:40px;
 }
 
-.logo{
-    display:flex;
-    align-items:center;
-    gap:10px;
+.navbar-toggler{
+    border:none;
 }
 
-.logo img{
-    width:50px;
+.navbar-toggler:focus{
+    box-shadow:none;
 }
 
-.logo h3{
-    color:var(--primary-red);
-}
+@media(max-width:768px){
 
-.logo span{
-    font-size:12px;
-    color:#777;
-}
+    .navbar-collapse{
+        background:#fff;
+        padding:20px;
+        margin-top:10px;
+        border-radius:10px;
+    }
 
-.nav-links{
-    display:flex;
-    list-style:none;
-    gap:35px;
-}
+    .navbar-nav{
+        text-align:center;
+    }
 
-.nav-links a{
-    text-decoration:none;
-    color:var(--dark);
-    font-weight:600;
-}
+    .navbar-nav .nav-link{
+        padding:12px 0;
+        font-size:18px;
+    }
 
-.quote-btn{
-    background:var(--primary-red);
-    color:white;
-    padding:14px 25px;
-    border-radius:8px;
-    text-decoration:none;
 }

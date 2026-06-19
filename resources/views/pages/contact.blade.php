@@ -55,32 +55,38 @@
 
         <div class="contact-form-wrapper">
             <h2>Send us a message</h2>
-            <form id="contactForm" novalidate>
+            @if(session('success'))
+    <div class="alert alert-success">
+        {{ session('success') }}
+    </div>
+@endif
+            <form action="{{ route('contact.send') }}" method="POST">
+    @csrf
                 <div class="form-row">
                     <div class="form-group">
                         <label for="name">Your Name *</label>
-                        <input type="text" id="name" required>
+                       <input type="text" name="name" id="name" required>
                     </div>
                     <div class="form-group">
                         <label for="email">Email *</label>
-                        <input type="email" id="email" required>
+                        <input type="email" name="email" id="email" required>
                     </div>
                 </div>
 
                 <div class="form-row">
                     <div class="form-group">
                         <label for="phone">Phone</label>
-                        <input type="tel" id="phone">
+                        <input type="tel" name="phone" id="phone">
                     </div>
                     <div class="form-group">
                         <label for="subject">Subject *</label>
-                        <input type="text" id="subject" required>
+                        <input type="text" name="subject" id="subject" required>
                     </div>
                 </div>
 
                 <div class="form-group full-width">
                     <label for="message">Message *</label>
-                    <textarea id="message" rows="6" required></textarea>
+                    <textarea name="message" id="message" rows="6" required></textarea>
                 </div>
 
                 <button type="submit" class="submit-btn">

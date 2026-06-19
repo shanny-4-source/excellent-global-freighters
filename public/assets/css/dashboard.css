@@ -61,7 +61,7 @@ body{
 }
 
 .quote-btn{
-    background:var(--primary-red);
+    background: #C8102E;
     color:white;
     padding:14px 25px;
     border-radius:8px;
